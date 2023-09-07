@@ -1,0 +1,28 @@
+.sidebar {
+    flex: 3;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.sidebar--item {
+    margin-bottom: 4rem;
+}
+
+.sidebar--img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sidebar--text {
+    text-align: center;
+    font-size: 16px;
+}
+
+.sidebar--text.follow {
+    margin-top: 10px;
+}

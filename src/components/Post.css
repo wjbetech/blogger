@@ -1,0 +1,16 @@
+.post {
+    width: 85%;
+    margin: 0px 25px 40px 25px;
+}
+
+.post--img {
+    width: 75%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.post--info {
+    display: flex;
+    flex-direction: column;
+}
