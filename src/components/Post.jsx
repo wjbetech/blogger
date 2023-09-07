@@ -11,18 +11,17 @@ export const Post = () => {
         />
         <div className="post--info">
             <div className="post--cats">
-                <span className="post--cat">Cats</span>
-                <span className="post--cat">Games</span>
+                <span className="post--cat">Image subtitle</span>
             </div>
             <span className="post--title">
-                Lorem ipsum dolor sit.
+                Post Title
             </span>
             <span className="post--text">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus odit accusamus, quod numquam porro quisquam itaque, voluptates veniam aperiam repellat dicta aliquid fugiat tenetur eum, eligendi consequuntur nemo qui magni.
             </span>
             <hr />
             <p className="post--date">
-                1 hr ago.
+                1 hr ago
             </p>
         </div>
     </div>

@@ -1,6 +1,6 @@
 .post {
     width: 85%;
-    margin: 0px 25px 40px 25px;
+    margin: 0px 25px 50px 25px;
 }
 
 .post--img {
@@ -23,15 +23,21 @@
 
 .post--title {
     font-size: 24px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 4px;
     cursor: pointer;
 }
 
 .post--text {
+    width: 100%;
     margin-bottom: 15px;
     font-size: 16px;
     line-height: 1.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
 hr {

@@ -1,0 +1,51 @@
+.single--post {
+    flex: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 5rem;
+}
+
+.single--post--wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.single--post--title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.single--post--img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.single--post--actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: grey;
+}
+
+.single--post--info {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 1.5rem;
+
+    & span, b {
+        font-size: 15px;
+    }
+}
+
+p {
+    line-height: 1.6;
+}
+
+p:not(:last-of-type) {
+    margin: 2rem 0 2rem 0;
+}

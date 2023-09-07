@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import forest from "../assets/forest.png"
+import headerImg from "../assets/header-desktop.png"
 
 export const Header = () => {
   return (
@@ -10,7 +10,7 @@ export const Header = () => {
             <span className="header--title--lg">Blog</span>
         </div>
         <img 
-            src={forest}
+            src={headerImg}
             alt="A marshy forest" 
             className="header--img" 
         />

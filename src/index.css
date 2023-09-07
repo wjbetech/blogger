@@ -11,3 +11,11 @@ body {
   font-family: 'Manrope', sans-serif;
   color: rgb(83, 83, 83);
 }
+
+a {
+  cursor: pointer;
+}
+
+.bx {
+  cursor: pointer;
+}

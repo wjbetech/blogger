@@ -8,9 +8,9 @@ export const NavBar = () => {
         <div className="nav--bar--left"><a href="/"><img id='wjbetech' src={logo} alt="" /></a></div>
         <div className="nav--bar--center">
           <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
           </ul>
         </div>
         <div className="nav--bar--right"><i className='bx bxl-github'></i><i className='bx bxl-linkedin-square'></i></div>
