@@ -18,7 +18,6 @@
     text-align: center;
     justify-content: center;
     background-color: white;
-    
 }
 
 .nav--bar--left, .nav--bar--right {
@@ -29,6 +28,8 @@
     display: flex;
     flex: 6;
     justify-content: center;
+    color: rgb(173, 122, 1);
+    font-weight: 900
 }
 
 .nav--bar--center>ul {

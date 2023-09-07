@@ -4,13 +4,41 @@
 }
 
 .post--img {
-    width: 75%;
+    width: 100%;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 7px;
 }
 
 .post--info {
     display: flex;
     flex-direction: column;
+}
+
+.post--cat {
+    color: grey;
+    font-weight: 200;
+}
+
+.post--title {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.post--text {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+hr {
+    margin-bottom: 5px;
+}
+
+.post--date {
+    font-style: italic;
+    font-size: 14px;
 }

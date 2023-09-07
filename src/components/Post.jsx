@@ -15,12 +15,15 @@ export const Post = () => {
                 <span className="post--cat">Games</span>
             </div>
             <span className="post--title">
-                Lorem ipsum dolor sit amet consectetur.
+                Lorem ipsum dolor sit.
+            </span>
+            <span className="post--text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus odit accusamus, quod numquam porro quisquam itaque, voluptates veniam aperiam repellat dicta aliquid fugiat tenetur eum, eligendi consequuntur nemo qui magni.
             </span>
             <hr />
-            <span className="post--date">
+            <p className="post--date">
                 1 hr ago.
-            </span>
+            </p>
         </div>
     </div>
   )
