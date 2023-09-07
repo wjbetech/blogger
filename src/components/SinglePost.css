@@ -26,15 +26,15 @@
 .single--post--actions {
     display: flex;
     align-items: center;
-    margin-top: 10px;
     color: grey;
+    margin-left: -5px;
 }
 
 .single--post--info {
-    width: 60%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 20px 0 5px 0;
     margin-bottom: 1.5rem;
 
     & span, b {
