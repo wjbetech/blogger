@@ -51,6 +51,20 @@ a:visited {
     }
 }
 
+.navbar--user--img {
+    border-radius: 50%;
+    padding: 2px 7px;
+    margin-left: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(175, 174, 174);
+}
+
+a.navbar--user--img {
+    color: white;
+}
+
 .bx {
     padding: 5px;
 }

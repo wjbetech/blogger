@@ -13,7 +13,13 @@ export const NavBar = () => {
             <li><a href="">CONTACT</a></li>
           </ul>
         </div>
-        <div className="nav--bar--right"><i className='bx bxl-github'></i><i className='bx bxl-linkedin-square'></i></div>
+        <div className="nav--bar--right">
+          <i className='bx bxl-github'></i>
+          <i className='bx bxl-linkedin-square'></i>
+          <a href="/settings" className="navbar--user--img">
+            W
+          </a>
+        </div>
     </div>
   )
 }
