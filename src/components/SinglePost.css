@@ -1,7 +1,5 @@
 .single--post {
     flex: 9;
-    padding-left: 50px;
-    padding-right: 50px;
     margin-top: 5rem;
 }
 
@@ -13,6 +11,7 @@
 .single--post--title {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: rgb(173, 122, 1);
 }
 
 .single--post--img {
@@ -27,15 +26,32 @@
     display: flex;
     align-items: center;
     color: grey;
-    margin-left: -5px;
+    margin-top: 15px;
+
+    & :first-child {
+        color: white;
+        background-color: green;
+        margin-right: 10px;
+    }
+
+    & :last-child {
+        color:white;
+        background-color: red;
+    }
+
+    .bx {
+        border-radius: 10px;
+        padding: 7px;
+    }
 }
 
 .single--post--info {
     width: 45%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 5px 0;
+    padding: 0 0 5px 0;
     margin-bottom: 1.5rem;
+    color: rgb(173, 122, 1);
 
     & span, b {
         font-size: 15px;
@@ -44,6 +60,10 @@
 
 p {
     line-height: 1.6;
+}
+
+p::first-letter {
+    margin-left: 2rem;
 }
 
 p:not(:last-of-type) {

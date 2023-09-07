@@ -1,6 +1,6 @@
 .sidebar {
     flex: 3;
-    padding-right: 75px;
+    margin-right: 3rem;
     text-align: center;
     margin-top: 4.5rem;
 }
