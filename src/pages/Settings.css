@@ -1,0 +1,81 @@
+.settings--page {
+    display: flex;
+}
+
+.settings--wrapper {
+    flex: 9;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.settings--title {
+    display: flex;
+    align-items: top;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.settings--update--title {
+    display: flex;
+    font-size: 24px;
+    color: rgb(173, 122, 1);
+}
+
+.settings--delete--title {
+    color: rgb(219, 3, 3);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.settings--form {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings--profilepic {
+    display: flex;
+    align-items: center;
+    margin-top: 10px 0;
+}
+
+.settings--profilepic>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    margin: 15px 20px 15px 0;
+}
+
+.settings--info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    max-width: 500px;
+    justify-content: center;
+
+    & label {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    & input {
+        padding: 10px 10px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    & input:last-of-type {
+        margin-bottom: 50px;
+    }
+
+    & button {
+        border: none;
+        background-color: green;
+        color: white;
+        padding: 5px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+}
+
