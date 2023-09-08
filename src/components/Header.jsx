@@ -11,7 +11,7 @@ export const Header = () => {
         </div>
         <img 
             src={headerImg}
-            alt="A marshy forest" 
+            alt="website header" 
             className="header--img" 
         />
     </div>
