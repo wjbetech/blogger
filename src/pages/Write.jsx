@@ -5,7 +5,7 @@ export const Write = () => {
   return (
     <div className="write">
         <img 
-            src="https://images.unsplash.com/photo-1595044426077-d36d9236d54a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGtleWJvYXJkfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60"
+            src="https://www.vocaleurope.eu/wp-content/uploads/no-image.jpg"
             alt="A colorful keyboard" 
             className="file--img" 
         />

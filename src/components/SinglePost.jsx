@@ -20,9 +20,9 @@ export const SinglePost = () => {
             <span class="single--post--author">Author: <b>[name]</b></span>
             <span class="single--post--date">Created: <b>[date]</b></span>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos praesentium laboriosam totam, nobis dolorum dignissimos laudantium impedit. Ad ex possimus corrupti, debitis voluptatem ullam, odio eligendi in natus earum est?</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ab officia dolores. Et commodi quam mollitia, quia, perferendis odit quasi, molestias ab maxime esse totam veniam! Eveniet perspiciatis dolor cupiditate.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui magni cum, corrupti necessitatibus architecto ipsa, magnam natus provident a vitae et nam aliquam aut asperiores suscipit! Soluta, dolores repellendus.</p>
+          <p className="singlepost--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos praesentium laboriosam totam, nobis dolorum dignissimos laudantium impedit. Ad ex possimus corrupti, debitis voluptatem ullam, odio eligendi in natus earum est?</p>
+          <p className="singlepost--p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ab officia dolores. Et commodi quam mollitia, quia, perferendis odit quasi, molestias ab maxime esse totam veniam! Eveniet perspiciatis dolor cupiditate.</p>
+          <p className="singlepost--p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui magni cum, corrupti necessitatibus architecto ipsa, magnam natus provident a vitae et nam aliquam aut asperiores suscipit! Soluta, dolores repellendus.</p>
         </div>
     </div>
   )

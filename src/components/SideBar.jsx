@@ -32,8 +32,13 @@ export const SideBar = () => {
         <p className='sidebar--text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptates ipsam rerum, minus modi excepturi sed esse ullam corrupti, velit alias, quod aperiam.</p>
       </div>
       <div className="sidebar--item">
-        <span className="sidebar--title">FOLLOW</span>
-        <p className="sidebar--text follow"><i className='bx bxl-github'></i><i className='bx bxl-linkedin-square'></i></p>
+        <p className="sidebar--title">FOLLOW</p>
+          <a href="https://github.com/wjbetech" target="_blank">
+            <i className='bx bxl-github'></i>
+          </a>
+          <a href="https://www.linkedin.com/in/william-east-653535211/" target="_blank">
+            <i className='bx bxl-linkedin-square'></i>
+          </a>
         <p className="sidebar--text follow">@wjbetech 2023</p>
       </div>
     </div>
