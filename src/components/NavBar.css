@@ -34,6 +34,11 @@ a:visited {
     flex: 3;
 }
 
+.nav--bar--right {
+    display: flex;
+    justify-content: center
+}
+
 .nav--bar--center {
     display: flex;
     flex: 6;
@@ -52,9 +57,10 @@ a:visited {
 }
 
 .navbar--user--img {
+    display: inline-block;
+    padding: 5px 9px;
     border-radius: 50%;
-    padding: 2px 7px;
-    margin-left: 10px;
+    margin-left: 5px;
     color: white;
     align-items: center;
     justify-content: center;
@@ -66,5 +72,5 @@ a.navbar--user--img {
 }
 
 .bx {
-    padding: 5px;
+    margin-right: 10px;
 }

@@ -30,9 +30,9 @@ export const Settings = () => {
                     <label>Username:</label>
                     <input type="text" placeholder='Your name' />
                     <label>Email:</label>
-                    <input type="email" placeholder='...@gmail.com' />
+                    <input type="email" placeholder='your-email@gmail.com' />
                     <label>Password:</label>
-                    <input type="passord" placeholder='******' />
+                    <input type="password" placeholder='******' />
                     <button className="settings--submit">Update</button>
                 </div>
             </form>

@@ -1,0 +1,45 @@
+.login {
+    display: flex;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 45px;
+}
+
+.login--form {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+        margin-bottom: 7px;
+    };
+
+    & input {
+        border: none;
+        border-left: 3px solid grey;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+    }
+
+    & input:focus {
+        outline: none;
+    }
+
+    & button {
+        border-radius: 6px;
+        border: none;
+        background-color: green;
+        padding: 10px 25px;
+        color: white;
+        font-weight: 700;
+    }
+
+    & span {
+        font-size: 14px;
+        margin-top: 45px;
+        margin-bottom: 5px;
+    }
+}
