@@ -8,9 +8,10 @@ export const NavBar = () => {
         <div className="nav--bar--left"><a href="/"><img id='wjbetech' src={logo} alt="" /></a></div>
         <div className="nav--bar--center">
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/contact">CONTACT</a></li>
+            <li><a href="/login">LOGIN</a></li>
           </ul>
         </div>
         <div className="nav--bar--right">

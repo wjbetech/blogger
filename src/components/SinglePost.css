@@ -62,10 +62,6 @@ p {
     line-height: 1.6;
 }
 
-p::first-letter {
-    margin-left: 2rem;
-}
-
 p:not(:last-of-type) {
     margin: 2rem 0 2rem 0;
 }
