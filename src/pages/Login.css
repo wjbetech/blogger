@@ -43,6 +43,7 @@ h1 {
 
     & .login--register {
         background-color: teal;
+        text-decoration: none;
     }
 
     & span {
@@ -50,4 +51,9 @@ h1 {
         margin-top: 45px;
         margin-bottom: 5px;
     }
+}
+
+.login--register>a {
+    color: white;
+    text-decoration: none;
 }

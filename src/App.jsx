@@ -10,7 +10,7 @@ import { Register } from './pages/Register';
 import { Contact } from './pages/Contact';
 
 export default function App() {
-  const loggedIn = false;
+  const loggedIn = true;
   return (
     <Router>
       <NavBar />

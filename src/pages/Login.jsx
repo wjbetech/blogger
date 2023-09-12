@@ -12,7 +12,7 @@ export const Login = () => {
             <input type="email" placeholder='*******' />
             <button className="login--button">Login</button>
             <span>Not a member yet?</span>
-            <button className="login--register">Register</button>
+            <button className="login--register"><a href="/register">Register</a></button>
         </form>
     </div>
   )

@@ -4,7 +4,7 @@ import logo from "../assets/wjbetech-logo.png"
 import { Link } from 'react-router-dom'
 
 export const NavBar = () => {
-  const loggedIn = false;
+  const loggedIn = true;
   return (
     <div className='nav--bar'>
         <div className="nav--bar--left"><a href="https://github.com/wjbetech" target='_blank'><img id='wjbetech' src={logo} alt="" /></a></div>

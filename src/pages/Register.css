@@ -38,6 +38,7 @@ h1 {
 
     & .register--button {
         background-color: green;
+        cursor: pointer;
     }
 
     & span {

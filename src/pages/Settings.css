@@ -80,9 +80,14 @@
         border: none;
         background-color: green;
         color: white;
-        padding: 5px;
+        padding: 10px;
         border-radius: 6px;
         cursor: pointer;
+        width: 75%;
     }
+}
+
+.settings--submit {
+
 }
 
